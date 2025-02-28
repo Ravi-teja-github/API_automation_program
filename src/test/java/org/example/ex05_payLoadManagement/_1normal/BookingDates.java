@@ -1,4 +1,4 @@
-package org.example.ex05_payLoadManagement;
+package org.example.ex05_payLoadManagement._1normal;
 
 public class BookingDates {
     private  String CheckIn;

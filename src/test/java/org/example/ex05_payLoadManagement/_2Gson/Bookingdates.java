@@ -1,4 +1,4 @@
-package org.example.ex05_payLoadManagement.Gson;
+package org.example.ex05_payLoadManagement._2Gson;
 
 
 import com.google.gson.annotations.Expose;

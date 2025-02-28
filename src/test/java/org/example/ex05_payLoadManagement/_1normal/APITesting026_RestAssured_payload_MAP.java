@@ -1,4 +1,4 @@
-package org.example.ex05_payLoadManagement;
+package org.example.ex05_payLoadManagement._1normal;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -8,13 +8,12 @@ import io.restassured.specification.RequestSpecification;
 import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
-public class APITesting026_RestAssured_payload_POJO {
+public class APITesting026_RestAssured_payload_MAP {
 
 
     RequestSpecification reqSpe;
@@ -25,48 +24,32 @@ public class APITesting026_RestAssured_payload_POJO {
 
     @Test
     public void test_POST(){
-     //  Map jsonBodyUsingMap=  new LinkedHashMap<>();
-      // jsonBodyUsingMap.put("Firstname","Ravi");
-       // jsonBodyUsingMap.put("lastname","Teja");
-      //  jsonBodyUsingMap.put("totalprice",123);
-      //  jsonBodyUsingMap.put("depositpaid",true);
-//
-      //  Map bookingDateMap=  new LinkedHashMap<>();
-      //  bookingDateMap.put("Checkin", "2018-01-01");
-      //  bookingDateMap.put("Checkout", "2019-01-01");
+       Map jsonBodyUsingMap=  new LinkedHashMap<>();
+       jsonBodyUsingMap.put("Firstname","Ravi");
+        jsonBodyUsingMap.put("lastname","Teja");
+        jsonBodyUsingMap.put("totalprice",123);
+        jsonBodyUsingMap.put("depositpaid",true);
 
-      //  jsonBodyUsingMap.put("bookingdates",bookingDateMap);
-      //  jsonBodyUsingMap.put("additionalneeds","Breakfast");
+        Map bookingDateMap=  new LinkedHashMap<>();
+        bookingDateMap.put("Checkin", "2018-01-01");
+        bookingDateMap.put("Checkout", "2019-01-01");
 
-      //  System.out.println(jsonBodyUsingMap);
+        jsonBodyUsingMap.put("bookingdates",bookingDateMap);
+        jsonBodyUsingMap.put("additionalneeds","Breakfast");
+
+        System.out.println(jsonBodyUsingMap);
 
         // TO CONVERT MAP TO JOSN (GSON AND JACKSON API )
         //this is map {Firstname=Ravi, lastname=Teja, totalprice=123, depositpaid=true, bookingdates={Checkin=2018-01-01, Checkout=2019-01-01}, additionalneeds=Breakfast}
 
         // we need to convert this in json
 
-        //POJO
 
-        Booking booking=new Booking();
-        booking.setFirstname("Ravi");
-        booking.setLastname("Teja");
-        booking.setTotalprice(112);
-        booking.setDepositpaid(true);
-
-        BookingDates bookingDates=new BookingDates();
-        bookingDates.setCheckIn("2018-01-01");
-        bookingDates.setCheckOut("2019-01-01");
-
-        booking.setBookingDates(bookingDates);
-        booking.setAdditionalneeds("Breakfast");
-
-        System.out.println(booking);
-
-       reqSpe= RestAssured.given();
+        reqSpe= RestAssured.given();
        reqSpe.baseUri("https://restful-booker.herokuapp.com");
        reqSpe.basePath("/booking/");
        reqSpe.contentType(ContentType.JSON);
-       reqSpe.log().all().body(booking);
+       reqSpe.log().all().body(jsonBodyUsingMap);
        res= reqSpe.when().log().all().post();
 
         // get validatable response to perform validation
