@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/aipl1/IdeaProjects/Automation_program">
+        <classes>
+            <class name="org.example.ex02_RestAssuredBasics.GET.APITesting007_GET_NonBDDStyle">
+                <methods>
+                    <include name="Test_GET_Req_Positive"/>
+                    <include name="Test_GET_Req_Negative"/>
+                </methods>
+            </class>
+            <class name="org.example.ex02_RestAssuredBasics.GET.APITesting007_GET_NonBDDStyle">
+                <methods>
+                    <include name="Test_GET_Req_Positive"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

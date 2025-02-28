@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7104747-ce13-42eb-8cce-8cd60db7d5b4" name="Changes" comment="APITesting" />
+    <list default="true" id="c7104747-ce13-42eb-8cce-8cd60db7d5b4" name="Changes" comment="API_automation_Testing 25-02-2025">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/DELETE/APITesting013_DELETE_NonBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/GET/APITesting005_GET_BDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/GET/APITesting006_GET_BDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/GET/APITesting007_GET_NonBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/GET/APITesting008_GET_NonBDDStyle_with_instance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/PATCH/APITesting012_PATCH_NonBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/POST/APITesting009_POST_NonBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/POST/APITesting010_POST_BDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/PUT/APITesting011_PUT_NonBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex04_testNGexamples/APITesting013_TestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex04_testNGexamples/APITesting014_TestNG_prority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex04_testNGexamples/APITesting015_TestNG_Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex04_testNGexamples/APITesting016_TestNG_Groups_prod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex04_testNGexamples/APITesting017_TestNG_DependsonMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex04_testNGexamples/APITesting018_TestNG_parameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex04_testNGexamples/APITesting019_TestNG_alwaysRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex04_testNGexamples/APITesting020_TestNG_Enabled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex04_testNGexamples/APITesting021_TestNG_invocationcount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_NonBDD-GET.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_parameter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_parameter_firefox.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_prod.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,14 +42,35 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
-  </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Ravi-teja-github"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Ravi-teja-github/API_automation_program",
+    "accountId": "06e865d4-fb29-4092-aead-5a4cbad5c0fc"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/POST/APITesting009_POST_NonBDDStyle_with_instance.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2tTC5xB9dUqDrbwQocRt3oZecEv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,11 +83,39 @@
   "keyToString": {
     "Application.APITesting001.executor": "Run",
     "Application.APITesting002.executor": "Run",
+    "Application.APITesting005_GET_BDDStyle.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.APITesting007_GET_NonBDDStyle.executor": "Run",
+    "TestNG.APITesting008_GET_NonBDDStyle_with_instance.Test_GET_Req_Negative.executor": "Run",
+    "TestNG.APITesting008_GET_NonBDDStyle_with_instance.executor": "Run",
+    "TestNG.APITesting009_POST_NonBDDStyle_with_instance.executor": "Run",
+    "TestNG.APITesting009_POST_NonBDDStyle_with_instance.test_POST_NonBDDStyle.executor": "Run",
+    "TestNG.APITesting010_POST_BDDStyle.executor": "Run",
+    "TestNG.APITesting011_POST_NonBDDStyle.test_PUT_NonBDDStyle.executor": "Run",
+    "TestNG.APITesting012_PATCH_NonBDDStyle.executor": "Run",
+    "TestNG.APITesting012_PATCH_NonBDDStyle.test_PATCH_NonBDDStyle.executor": "Run",
+    "TestNG.APITesting013_DELETE_NonBDDStyle.executor": "Run",
+    "TestNG.APITesting013_TestNG.PUT.executor": "Run",
+    "TestNG.APITesting017_TestNG_DependsonMethod.executor": "Run",
+    "TestNG.APITesting018_TestNG_parameters.executor": "Run",
+    "TestNG.APITesting019_TestNG_Enabled.executor": "Run",
+    "TestNG.APITesting019_TestNG_alwaysRun.executor": "Run",
+    "TestNG.APITesting019_TestNG_alwaysRun.test03.executor": "Run",
+    "TestNG.APITesting021_TestNG_invocationcount.executor": "Run",
+    "TestNG.APITesting_TestNG_prority.executor": "Run",
+    "TestNG.C:/Users/aipl1/IdeaProjects/Automation_program/target/testng-groupQA.xml.executor": "Run",
+    "TestNG.C:/Users/aipl1/IdeaProjects/Automation_program/testng-groupQA.xml.executor": "Run",
+    "TestNG.C:/Users/aipl1/IdeaProjects/Automation_program/testng.xml.executor": "Run",
+    "TestNG.C:/Users/aipl1/IdeaProjects/Automation_program/testng_NonBDD-GET.xml.executor": "Run",
+    "TestNG.C:/Users/aipl1/IdeaProjects/Automation_program/testng_parameter.xml.executor": "Run",
+    "TestNG.C:/Users/aipl1/IdeaProjects/Automation_program/testng_parameter_firefox.xml.executor": "Run",
+    "TestNG.C:/Users/aipl1/IdeaProjects/Automation_program/testng_prod.xml.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/aipl1/IdeaProjects/Automation_program",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -52,41 +125,108 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aipl1\IdeaProjects\Automation_program" />
+      <recent name="C:\Users\aipl1\IdeaProjects\Automation_program\target" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aipl1\IdeaProjects\Automation_program" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.example.ex_sampleTest" />
+      <recent name="org.example.ex04_testNGexamples" />
+      <recent name="org.example.ex02_RestAssuredBasics.DELETE" />
+      <recent name="org.example.ex02_RestAssuredBasics.PATCH" />
+      <recent name="org.example.ex02_RestAssuredBasics.PUT" />
+      <recent name="org.example.ex02_RestAssuredBasics.POST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.APITesting002">
-    <configuration name="APITesting001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ex01_sampleTest.APITesting001" />
+  <component name="RunManager" selected="TestNG.APITesting021_TestNG_invocationcount">
+    <configuration name="APITesting019_TestNG_alwaysRun" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_program" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ex01_sampleTest.*" />
+          <option name="PATTERN" value="org.example.ex04_testNGexamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.ex04_testNGexamples" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex04_testNGexamples.APITesting019_TestNG_alwaysRun" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="APITesting002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ex01_sampleTest.APITesting002" />
+    <configuration name="APITesting019_TestNG_alwaysRun.test03" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_program" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ex01_sampleTest.*" />
+          <option name="PATTERN" value="org.example.ex04_testNGexamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.ex04_testNGexamples" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex04_testNGexamples.APITesting019_TestNG_alwaysRun" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITesting020_TestNG_Enabled" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_program" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ex04_testNGexamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ex04_testNGexamples" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex04_testNGexamples.APITesting020_TestNG_Enabled" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITesting021_TestNG_invocationcount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_program" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ex04_testNGexamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ex04_testNGexamples" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex04_testNGexamples.APITesting021_TestNG_invocationcount" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/aipl1/IdeaProjects/Automation_program/testng_parameter_firefox.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_program" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_parameter_firefox.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.APITesting002" />
-        <item itemvalue="Application.APITesting001" />
+        <item itemvalue="TestNG.APITesting021_TestNG_invocationcount" />
+        <item itemvalue="TestNG.APITesting019_TestNG_alwaysRun" />
+        <item itemvalue="TestNG.APITesting019_TestNG_alwaysRun.test03" />
+        <item itemvalue="TestNG.APITesting020_TestNG_Enabled" />
+        <item itemvalue="TestNG.C:/Users/aipl1/IdeaProjects/Automation_program/testng_parameter_firefox.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -131,11 +271,47 @@
       <option name="project" value="LOCAL" />
       <updated>1740486159053</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="APITesting">
+      <option name="closed" value="true" />
+      <created>1740486555442</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740486555442</updated>
+    </task>
+    <task id="LOCAL-00006" summary="API_automation_Testing 25-02-2025">
+      <option name="closed" value="true" />
+      <created>1740486691428</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740486691428</updated>
+    </task>
+    <task id="LOCAL-00007" summary="API_automation_Testing 25-02-2025">
+      <option name="closed" value="true" />
+      <created>1740486732340</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740486732340</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="APITesting" />
-    <option name="LAST_COMMIT_MESSAGE" value="APITesting" />
+    <MESSAGE value="API_automation_Testing 25-02-2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="API_automation_Testing 25-02-2025" />
   </component>
 </project>
